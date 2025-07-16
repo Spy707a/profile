@@ -1439,3 +1439,85 @@ img,video {
         text-align:right
     }
 }
+
+@media (max-width: 640px) {
+  header .container {
+    padding: 0.5rem 0.5rem;
+  }
+  nav {
+    padding: 0.5rem 0.5rem;
+    border-radius: 1.5rem;
+  }
+  nav ul {
+    display: none !important;
+  }
+  .flex, .md\:flex-row {
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+  }
+  .max-w-6xl, .max-w-7xl {
+    max-width: 100vw !important;
+  }
+  .h-screen {
+    min-height: 70vh !important;
+    height: auto !important;
+  }
+  .pt-60 {
+    padding-top: 2rem !important;
+  }
+  .text-4xl, .lg\:text-4xl, .text-5xl, .lg\:text-6xl {
+    font-size: 2rem !important;
+  }
+  .text-3xl, .md\:text-5xl {
+    font-size: 1.5rem !important;
+  }
+  .rounded-3xl, .rounded-full {
+    border-radius: 1.5rem !important;
+  }
+  .w-\[250px\], .h-\[250px\] {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  .mb-20 {
+    margin-bottom: 1rem !important;
+  }
+  .p-6, .px-6, .py-4, .py-10 {
+    padding: 0.5rem !important;
+  }
+  .gap-8, .gap-9, .lg\:gap-16 {
+    gap: 1rem !important;
+  }
+  .text-center, .md\:text-left {
+    text-align: center !important;
+  }
+  .flex-col, .md\:flex-row {
+    flex-direction: column !important;
+  }
+  .mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .my-44 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .container {
+    max-width: 100vw !important;
+    padding: 0 0.5rem !important;
+  }
+  #contact .flex {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  #contact .flex-1 {
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+  #contact .w-\[250px\], #contact .h-\[250px\] {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  #contact h2 {
+    font-size: 1.5rem !important;
+  }
+}
